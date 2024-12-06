@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Seats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Seats</h1>
+        <form action="book" method="post">
+            <input type="hidden" name="movieId" value="123">
+            <input type="hidden" name="showTime" value="7:30 PM">
+            <div class="seat-grid">
+                <label>
+                    <input type="checkbox" name="seatNumbers" value="A1">
+                    <div class="seat">A1</div>
+                </label>
+                <label>
+                    <input type="checkbox" name="seatNumbers" value="A2" disabled>
+                    <div class="seat booked">A2</div>
+                </label>
+                <label>
+                    <input type="checkbox" name="seatNumbers" value="A3">
+                    <div class="seat">A3</div>
+                </label>
+            </div>
+            <button type="submit" class="book-btn">Confirm Booking</button>
+        </form>
+    </div>
+</body>
+</html>
