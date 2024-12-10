@@ -70,7 +70,7 @@ public class UserServlet extends HttpServlet {
             if (rs.next()) {
                 HttpSession session = request.getSession();
                 session.setAttribute("userId", rs.getInt("id"));
-                response.sendRedirect("movies.jsp");
+                response.sendRedirect("home.jsp");
             } else {
                 response.getWriter().println("Invalid credentials.");
             }

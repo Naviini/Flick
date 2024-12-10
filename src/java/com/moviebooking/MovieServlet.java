@@ -45,6 +45,10 @@ import java.sql.*;
             request.setAttribute("movies", rs);
             request.getRequestDispatcher("movies.jsp").forward(request, response);
 
+//            // Pass movie data to the booking JSP page
+//            request.setAttribute("movies", rs);
+//            request.getRequestDispatcher("booking.jsp").forward(request, response);
+//            
             // Close connection
             conn.close();
         } catch (Exception e) {

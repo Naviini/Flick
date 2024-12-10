@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<!--
+<!--<!DOCTYPE html>
+
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
+
 <html>
     <head>
         <title>Register|Cinex</title>
@@ -19,4 +19,87 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         </form>
 
     </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up|</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+      #fullName{
+          margin-bottom: 20px;
+      }
+      #email{
+          margin-bottom: 20px;
+      }
+      #password{
+          margin-bottom: 10px;
+      }
+      #register_btn{
+          margin-top: 15px;
+      }
+      
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+  <div class="flex justify-center items-center min-h-screen">
+    <div class="bg-gray-800 p-8 rounded-lg shadow-lg max-w-md w-full">
+      <!-- Header -->
+      <h2 class="text-3xl font-bold text-teal-300 text-center mb-8">Welcome!</h2>
+      <p class="text-center text-gray-400 mb-6">Sign in to your account to continue</p>
+      
+      <!-- Form -->
+      <!--<form action="LoginServlet" method="POST" class="space-y-6">-->
+      <form action="user" method="post">
+        <!-- Full Name Field -->
+        <div>
+          <label for="fullName" class="block text-sm font-medium text-gray-400 mb-2">Full Name</label>
+          <input type="hidden" name="action" value="register">
+          <!--<input type="email" name="email" placeholder="Email" required>-->
+          <input type="fullName" id="fullName" name="fullName" required
+                 class="w-full p-3 bg-gray-700 text-gray-200 rounded-lg border border-gray-600 focus:ring-2 focus:ring-teal-300 focus:outline-none"
+                 placeholder="Enter your Full Name">
+          <!--<input type="email" id="email" name="email" required--> 
+        </div>
+        <!-- Email Field -->
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-400 mb-2">Email</label>
+          <input type="hidden" name="action" value="register">
+          <!--<input type="email" name="email" placeholder="Email" required>-->
+          <input type="email" id="email" name="email" required
+                 class="w-full p-3 bg-gray-700 text-gray-200 rounded-lg border border-gray-600 focus:ring-2 focus:ring-teal-300 focus:outline-none"
+                 placeholder="Enter your email">
+          <!--<input type="email" id="email" name="email" required--> 
+        </div>
+        
+        <!-- Password Field -->
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-400 mb-2">Password</label>
+          <!--<input type="password" id="password" name="password" required--> 
+          <!--<input type="password" name="password" placeholder="Password" required>-->
+          <input type="password" name="password" id="password" required
+                 class="w-full p-3 bg-gray-700 text-gray-200 rounded-lg border border-gray-600 focus:ring-2 focus:ring-teal-300 focus:outline-none"
+                 placeholder="Enter your password">
+        </div>
+
+        <!-- Sign up Button -->
+        <button type="submit" id="register_btn"
+                class="w-full bg-teal-300 text-gray-900 py-3 rounded-lg font-bold shadow-md hover:bg-teal-300 transition">
+          Sign up
+        </button>
+      </form>
+
+      <!-- Footer Links -->
+      <div class="text-center mt-6 text-sm text-gray-400">
+        <p>Don't have an account? <a href="login.html" class="text-teal-300 hover:underline">Sign in</a></p>
+        <p><a href="forgot-Password.html" class="text-teal-300 hover:underline">Forgot Password?</a></p>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
+
+
