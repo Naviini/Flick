@@ -33,7 +33,7 @@
         <h1 class="text-3xl font-extrabold text-teal-300 tracking-wide"> 
             <!--i changed it-->
             <!--<a href="Dashboard/home.jsp"><img src="flick 2.png"/></a>-->
-            <a href="home.jsp"><img src="logo.png" id="logo"></a>
+            <a href="home.jsp"><img src="images/logo.png" id="logo"></a>
              <!--<a href="https://www.tesla.com/"><img src="logo.svg" class="i1"/></a>-->
         </h1>
 

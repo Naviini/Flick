@@ -20,13 +20,14 @@
         .movie {
             background: #1f2937;
             width: 80%;
+            height: 250px;
             margin: 20px 0;
             margin-left: 140px;
             margin-right: 140px;
             margin-bottom: 35px;
             /*padding: 30px;*/
             border-radius: 20px;
-            box-shadow: 5px 5px 20px rgba(204, 251, 241, 0.563);
+            box-shadow: 5px 5px 20px rgba(204, 251, 241, 0.263);
             /*box-shadow: 2px 2px 10px rgba(204, 251, 241, 0.849);*/
             /*box-shadow: 10px 10px 30px rgb(204 251 241);*/
             /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
@@ -35,14 +36,16 @@
             /*background: red;*/
             /*display: flex;*/
             width: 500px;
-            margin-left: 365px;
+            margin-left: 375px;
+            padding-top: 15px;
+            /*margin-top: 50px;*/
         }
         .movie_cover1{
             /*display: flex;*/
             background: gray;
             width: 350px;
             height: 250px;
-            border-radius: 10px;
+            border-radius: 20px;
             margin-bottom: 30px;
             /*height: 300px;*/
             /*margin-left: 10px;*/
@@ -54,6 +57,7 @@
         .movie h2 {
             font-size: 30px;
             font-weight: 500;
+            /*margin-top: 40px;*/
             /*margin: 0;*/
             /*padding-left: 20px;*/
             /*color: #333;*/
@@ -95,18 +99,20 @@
             font-size:20px;
         }
         #Book_btn{
-            display: flex;
+            /*display: flex;*/
             margin-left: 980px;
-            margin-top: -65px;
-            margin-bottom: 20px;
+            margin-top: -95px;
+            /*margin-bottom: -50px;*/
         }
         #cover1{
             /*display: flex;*/
-            margin-top: -188px;
+            /*margin-top: -188px;*/
+            margin-top: -204px;
+            border-radius: 20px;
 /*            margin-bottom: 25px;
             margin-left: 20px;
             width: 210px;*/
-            /*height: 300px;*/
+            height: 250px;
             /*padding-left: 20px;*/
         }
 /*        .book_btn{
@@ -126,7 +132,7 @@
         <!-- Logo -->
         <h1 class="text-3xl font-extrabold text-teal-300 tracking-wide"> 
             <!--i changed it-->
-          <a href="home.jsp"><img src="logo.png" id="logo"></a>
+          <a href="home.jsp"><img src="images/logo.png" id="logo"></a>
         </h1>
 
         <!-- Navigation Menu (Desktop) -->
@@ -260,8 +266,8 @@
                         </div>
                         
                         <!-- Book Now Button -->
-                            <div class="mt-0.2 text-center">
-                            <a href="MoviesServlet" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition">
+                            <div class="mt-0.2 text-center" id="Book_btn">
+                            <a href="SeatBooking.html" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition" >
                                 Book Now
                             </a>
                         </div>
