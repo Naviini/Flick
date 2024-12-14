@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>SeatBooking</servlet-name>
+    <servlet-class>your.package.SeatBooking</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SeatBooking</servlet-name>
+    <url-pattern>/SeatBooking</url-pattern>
+</servlet-mapping> 

@@ -137,11 +137,11 @@
 
         <!-- Navigation Menu (Desktop) -->
         <nav class="hidden md:flex space-x-8 text-lg font-medium text-gray-300">
-          <a href="#home" class="hover:text-teal-300  transition duration-300">Home</a>
-          <a href="#about-us" class="hover:text-teal-300  transition duration-300">About Us</a>
+          <a href="home.jsp" class="hover:text-teal-300  transition duration-300">Home</a>
+          <a href="home.jsp#about-us" class="hover:text-teal-300  transition duration-300">About Us</a>
           <!--<a href="#upcoming-movies"" class="hover:text-teal-300  transition duration-300">Movies</a>-->
           <a href="movies.jsp" class="hover:text-teal-300  transition duration-300">Movies</a>
-          <a href="#faq" class="hover:text-teal-300  transition duration-300">FAQ</a>
+          <a href="home.jsp#faq" class="hover:text-teal-300  transition duration-300">FAQ</a>
         </nav>
 
         <!-- Profile Section -->
@@ -267,7 +267,7 @@
                         
                         <!-- Book Now Button -->
                             <div class="mt-0.2 text-center" id="Book_btn">
-                            <a href="SeatBooking.html" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition" >
+                            <a href="seatbook.jsp" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition" >
                                 Book Now
                             </a>
                         </div>

@@ -1,15 +1,109 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Movie Booking System</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: #f4f4f4;
+            }
+            .header {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 1em;
+            }
+            .nav {
+                background: #444; 
+                padding: 1em;
+                text-align: center;
+            }
+            .nav a {
+                color: white;
+                text-decoration: none;
+                padding: 0.5em 1em;
+                margin: 0 0.5em;
+            }
+            .nav a:hover {
+                background: #555;
+            }
+            .main {
+                max-width: 1200px;
+                margin: 2em auto;
+                padding: 0 1em;
+            }
+            .movie-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 2em;
+                padding: 2em 0;
+            }
+            .movie-card {
+                background: white;
+                padding: 1em;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                text-align: center;
+            }
+            .movie-card img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 4px;
+            }
+            .footer {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 1em;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="header">
+            <h1>Welcome to Movie Booking System</h1>
+        </div>
+        
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="#">Now Showing</a>
+            <a href="#">Coming Soon</a>
+        </div>
+
+        <div class="main">
+            <h2>Now Showing</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action/Adventure</p>
+                    <button onclick="location.href='booking.html'">Book Now</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Movie 2">
+                    <h3>Movie Title 2</h3>
+                    <p>Genre: Comedy</p>
+                    <button onclick="location.href='booking.html'">Book Now</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Movie 3">
+                    <h3>Movie Title 3</h3>
+                    <p>Genre: Drama</p>
+                    <button onclick="location.href='booking.html'">Book Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Movie Booking System. All rights reserved.</p>
+        </div>
     </body>
 </html>

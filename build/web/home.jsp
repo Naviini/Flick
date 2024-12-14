@@ -41,20 +41,22 @@
         <nav id="navigation" class="hidden md:flex space-x-8 text-lg font-medium text-gray-300">
           <a href="#home" class="hover:text-teal-300 transition duration-300">Home</a>
           <a href="#about-us" class="hover:text-teal-300 transition duration-300">About Us</a>
-          <a href="#upcoming-movies"" class="hover:text-teal-300 transition duration-300">Movies</a>
+          <!--<a href="#upcoming-movies"" class="hover:text-teal-300 transition duration-300">Movies</a>-->
+          <a href="movies.jsp"" class="hover:text-teal-300 transition duration-300">Movies</a>
           <!--<a href="movies.jsp" class="hover:text-teal-300 transition duration-300">Movies</a>-->
           <a href="#faq" class="hover:text-teal-300 transition duration-300">FAQ</a>
+          <a href="register.html" class="hover:text-teal-300 transition duration-300">Sign up</a>
         </nav>
 
         <!-- Profile Section -->
-        <div class="hidden md:flex items-center space-x-4">
+<!--        <div class="hidden md:flex items-center space-x-4">
           <img src="resources/dashboard/home/profile.svg" alt="User Logo" class="w-10 h-10 rounded-full border-2 border-teal-300">
           
               
           <span class="text-gray-300 font-medium">user@gmail.com</span>
           
           
-        </div>
+        </div>-->
 
         <!-- Mobile Menu Button -->
         <button id="menu-toggle" class="block md:hidden text-teal-300 focus:outline-none">
