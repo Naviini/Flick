@@ -51,17 +51,14 @@
 
 <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col" style = "overflow-x: hidden;">
     
-     <!-- Decorative Element -->
-      <div class="absolute top-0 left-0 w-48 h-48 bg-teal-300 opacity-20 rounded-full blur-xl"></div>
-      <div class="absolute bottom-0 right-0 w-64 h-64 bg-teal-300 opacity-10 rounded-full blur-2xl"></div>
-    </section>
+    <!-- Decorative Background Elements -->
+        <!--<div class="absolute inset-0 overflow-hidden">-->
+          <!--<div class="absolute top-0 left-0 w-96 h-96 bg-purple-500 opacity-20 rounded-full blur-3xl -translate-x-20 -translate-y-20"></div>-->
+          <div class="absolute top-0 left-0 w-96 h-96 bg-teal-300 opacity-20 rounded-full blur-3xl -translate-x-20 -translate-y-20"></div>
+          <!--<div class="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 opacity-20 rounded-full blur-3xl translate-x-20 translate-y-20"></div>-->
+          <div class="absolute bottom-0 right-0 w-96 h-96 bg-teal-300 opacity-20 rounded-full blur-3xl translate-x-20 translate-y-20"></div>
+        <!--</div>-->
     
-    <section id="about-us" class="relative bg-gray-900 text-white py-20">
-      <!-- Decorative Background Elements -->
-      <div class="absolute top-0 left-0 w-64 h-64 bg-teal-300 opacity-10 rounded-full blur-3xl transform -translate-y-16 -translate-x-16"></div>
-      <div class="absolute bottom-0 right-0 w-96 h-96 bg-teal-300 opacity-20 rounded-full blur-3xl transform translate-y-16 translate-x-16"></div>
-    </section>
-
     <!-- Navigation Bar -->
     <header id="head" class="fixed top-0 left-0 w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm shadow-lg">
       <div class="container mx-auto flex justify-between items-center px-6 py-3">
@@ -117,7 +114,6 @@
       </nav>
     </header>
     
-
     
     <div class="booking_container">  
         <h1>Booking Confirmed!</h1>
@@ -172,7 +168,7 @@
         <!-- Book Now Button -->
         <div class="btn_container" >
             <div class="mt-0.2 text-center" id="Book_btn">
-                <a href="seatbook.jsp" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition" >
+                <a href="payment/index.jsp" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition" >
                         Pay Now
                 </a>
             </div>

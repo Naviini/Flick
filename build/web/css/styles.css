@@ -1,0 +1,436 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body.body1 {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Dark background */
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Left Section: Food and Beverages */
+.left-section {
+    background-color: #24242a;
+    width: 40%;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.left-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    background-color: #36363d;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+.tab-button.active, .tab-button:hover {
+    background-color: #c73471;
+}
+
+.food-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a31;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.food-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.food-item div {
+    display: flex;
+    flex-direction: column;
+}
+
+.qty-input {
+    width: 50px;
+    padding: 5px;
+    margin:10px;
+    background-color: #3d3d45;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-button {
+    background-color: #ef247c;
+    border: none;
+    width:100px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color:#c13361;
+}
+
+/* Right Section: Ticket and Payment */
+.right-section {
+    background-color: #24242a;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.purchase-summary {
+    background-color: #2a2a31;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.purchase-summary h2 {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: #55c1e7;
+}
+
+.purchase-summary table {
+    width: 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    border-collapse: collapse;
+}
+
+.purchase-summary td, .purchase-summary th {
+    padding: 8px;
+    text-align: right;
+}
+
+.purchase-summary th {
+    font-weight: bold;
+}
+
+.user-details input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #3d3d45;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.user-details label {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-details input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    background-color: #55c1e7;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3ba5d7;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Compact Form Button Styling */
+button[type="submit"] {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+}
+
+.right-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/* Style the remove button for cart items */
+.cart-item button {
+    background-color: #821515;  /* Red color for the remove button */
+    color: white;  /* Text color white for contrast */
+    border: none;
+    padding: 5px 5px;
+    width:100px;
+   
+    font-size: 14px;  /* Increase the font size */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* On hover, the remove button will change color */
+.cart-item button:hover {
+    background-color: #e60000;  /* Darker red when hovered */
+}
+
+/* Make cart item elements stand out more */
+.cart-item p {
+    font-size: 16px;  /* Increase the text size */
+    margin: 5px 0;
+}
+
+/* Style for the cart item container */
+#cart-items {
+    margin-top: 20px;
+}
+
+/* Body 2 Styling */
+body.body2{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.status-container {
+    background-color: #ffffff; /* White background for the box */
+    padding: 40px;
+    text-align: center;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.status-container.success {
+    border-left: 5px solid #4CAF50; /* Green border for success */
+}
+
+.status-container.cancel {
+    border-left: 5px solid #f44336; /* Red border for error */
+}
+
+.con-h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.back-home-link-c {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.back-home-link-s {
+    display: inline-block;
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-home-link:hover {
+    background-color: #d32f2f; 
+}
+
+.status-container.cancel .back-home-link {
+    background-color: #f44336; /* Red button for error */
+}
+
+.status-container.cancel .back-home-link:hover {
+    background-color: #d32f2f; 
+}
+
+/* Header Styles */
+header {
+    background-color: #121212;
+    padding: 15px 20px;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links ul li a:hover,
+.nav-links ul li a.book-now {
+    color: #ff9800;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #121212;
+    color: white;
+    padding: 20px 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section ul li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9800;
+}
+
+.social-links img {
+    width: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container,
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-links img {
+        margin-bottom: 10px;
+    }
+}

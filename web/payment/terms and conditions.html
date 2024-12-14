@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Ticket Booking - Terms and Conditions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+             background-color: #000000;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        h2 {
+            color: white;
+            margin-top: 20px;
+        }
+        p {
+            margin: 10px 0;
+            color: white;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+            color: white;
+        }
+        li {
+            margin-bottom: 5px;
+            color: white;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .agree-button {
+             background-color: #55c1e7;
+            padding: 5px 5px;
+            border: none;
+             border-radius: 5px;
+            color: white;
+            width: 10%;
+            cursor: pointer;
+            font-size: 1rem;
+             margin-bottom: 15px;
+             transition: background-color 0.3s ease;
+        }
+        .agree-button:hover {
+            background-color:#3ba5d7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <div class="logo">
+            <a href="index.jsp"><img src="images/logo.png" alt="Cinema Logo"></a>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book">Book Now</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<h1>Cinema Ticket Booking - Terms and Conditions</h1>
+
+<p>Welcome to our cinema! Before proceeding with your ticket booking, please take a moment to read and agree to the following terms and conditions:</p>
+
+<h2>1. General Rules</h2>
+<ul>
+    <li>All bookings are subject to seat availability.</li>
+    <li>Tickets once purchased are non-refundable and non-transferable.</li>
+    <li>Entry to the cinema is only allowed with a valid ticket.</li>
+</ul>
+
+<h2>2. Booking and Payment</h2>
+<ul>
+    <li>Full payment must be made at the time of booking.</li>
+    <li>We accept payments via credit card, debit card, and other specified methods.</li>
+    <li>Ensure all payment information provided is accurate and complete.</li>
+</ul>
+
+<h2>3. Entry and Identification</h2>
+<ul>
+    <li>Visitors may be required to present a valid ID matching the booking name.</li>
+    <li>The cinema reserves the right to deny entry without valid proof of purchase.</li>
+</ul>
+
+<h2>4. Code of Conduct</h2>
+<ul>
+    <li>Disruptive behavior will not be tolerated and may result in removal from the premises.</li>
+    <li>Mobile phones and other electronic devices must be silenced during screenings.</li>
+    <li>No outside food or drinks are allowed inside the cinema.</li>
+</ul>
+
+<h2>5. Liability</h2>
+<ul>
+    <li>The cinema is not responsible for lost or stolen personal belongings.</li>
+    <li>The cinema reserves the right to cancel or reschedule screenings due to unforeseen circumstances.</li>
+</ul>
+
+<h2>6. Privacy</h2>
+<ul>
+    <li>Your personal information is collected solely for ticket booking purposes and will not be shared without consent.</li>
+    <li>For more information, please refer to our <a href="privacy-policy.html">Privacy Policy</a>.</li>
+</ul>
+
+<p>By proceeding with the booking, you agree to adhere to these terms and conditions.</p>
+
+<div class="button-container">
+    <button class="agree-button" onclick="agreeTerms()">I Agree</button>
+</div>
+
+<script>
+    function agreeTerms() {
+        alert("Thank you for agreeing to the terms and conditions. Proceeding to booking...");
+        window.location.href = "index.jsp"; // Replace with your booking page URL
+    }
+</script>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>Your one-stop destination for booking cinema tickets easily and quickly. Experience movies like never before!</p>
+        </div>
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms and conditions.html">Terms & Conditions</a></li>
+                <li><a href="Support Page.html">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="instagram-icon.png" alt="Instagram"></a>
+               
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 FlickBook | All Rights Reserved</p>
+    </div>
+</footer>
+
+</body>
+</html>
