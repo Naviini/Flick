@@ -67,12 +67,15 @@ public class UserServlet extends HttpServlet {
             ps.setString(1, email);
             ps.setString(2, password);
             ResultSet rs = ps.executeQuery();
+            
+            
             if (rs.next()) {
                 HttpSession session = request.getSession();
                 session.setAttribute("userId", rs.getInt("id"));
                 response.sendRedirect("home.jsp");
             } else {
-                response.getWriter().println("Invalid credentials.");
+                response.getWriter().println("Invalid cr0edentials.Try again!");
+                response.sendRedirect("login.html");
             }
             conn.close();
         } catch (Exception e) {
