@@ -1,8 +1,4 @@
-<%-- 
-    Document   : admin.jsp
-    Created on : Dec 15, 2024, 9:35:53 PM
-    Author     : user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
