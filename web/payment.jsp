@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema Ticket Booking</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="images/payment_styles.css">
     
     
     
@@ -151,7 +151,7 @@
         </div>
     </div>
 
-  <script src="script.js" defer></script>
+  <script src="js/payment.js" defer></script>
  
   <footer>
     <div class="footer-container">
