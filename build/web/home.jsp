@@ -96,11 +96,12 @@
             Experience the thrill of the latest blockbusters, indie films, and unforgettable classics—all at your fingertips.
           </p>
           <div class="mt-6 flex space-x-4">
+              <button>
               <a href="#movies" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-3 px-6 rounded-lg shadow-md text-lg font-bold transition">
               Explore Movies  
               <!--i changed it-->
             </a>
-              
+              </button>
             <a href="#features" class="bg-gray-800 hover:bg-gray-700 border border-gray-600 text-gray-300 py-3 px-6 rounded-lg shadow-md text-lg font-bold transition">
               Learn More
             </a>

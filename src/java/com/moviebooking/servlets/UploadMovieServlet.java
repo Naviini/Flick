@@ -37,7 +37,7 @@ public class UploadMovieServlet extends HttpServlet {
     // Database credentials
     private static final String DB_URL = "jdbc:mysql://localhost:3306/sm";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "";
+    private static final String DB_PASSWORD = "Nan#3rdSqlWish.";
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

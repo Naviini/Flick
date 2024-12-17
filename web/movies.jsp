@@ -142,17 +142,18 @@
           <!--<a href="#upcoming-movies"" class="hover:text-teal-300  transition duration-300">Movies</a>-->
           <a href="movies.jsp" class="hover:text-teal-300  transition duration-300">Movies</a>
           <a href="home.jsp#faq" class="hover:text-teal-300  transition duration-300">FAQ</a>
+          <a href="register.html" class="hover:text-teal-300 transition duration-300">Sign up</a>
         </nav>
 
-        <!-- Profile Section -->
+<!--         Profile Section 
         <div class="hidden md:flex items-center space-x-4">
-          <img src="resources/dashboard/home/profile.svg" alt="User Logo" class="w-10 h-10 rounded-full border-2 border-teal-300 ">
+          <img src="Dashboard/home/profile.svg" alt="User Logo" class="w-10 h-10 rounded-full border-2 border-teal-300 ">
           
               
           <span class="text-gray-300 font-medium">user@gmail.com</span>
           
           
-        </div>
+        </div>-->
         
         <!-- Mobile Menu Button -->
         <button id="menu-toggle" class="block md:hidden text-teal-300 focus:outline-none">
@@ -267,7 +268,7 @@
                         
                         <!-- Book Now Button -->
                             <div class="mt-0.2 text-center" id="Book_btn">
-                            <a href="seatbook.jsp" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition" >
+                            <a href="booking.jsp" class="bg-teal-300 hover:bg-teal-300 text-gray-900 py-2 px-6 rounded-lg font-bold shadow-lg transition" >
                                 Book Now
                             </a>
                         </div>
